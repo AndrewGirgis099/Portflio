@@ -1,0 +1,131 @@
+
+@media only screen and (max-width: 992px)  {
+    .confirmation-sm-contant{
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: start !important;
+        width: 85%;
+        margin: auto;
+    }
+    
+    /* form in new edit */
+    .new-sm-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: start !important;
+
+    }
+    .new-sm-form label{
+        padding-left: 0 !important;
+
+    }
+    .new-form{
+        width: 100% !important;
+    }
+    /* content-side */
+    .sync{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+    }
+    .sync img{
+        width: 150px !important;
+        padding: 5px 0 8px 0 !important;
+
+    }
+    .mob-input{
+        width: 100% !important;
+    }
+    .mobile-content{
+        width: 85%;
+        margin: auto;
+    }
+    /* .img-side{
+        display: none;
+    }
+     */
+}
+
+@media only screen and (max-width: 767px)  {
+    /* general style */
+    .font-sm-27{
+        font-size: 27px !important;
+    }
+    .font-sm-14{
+        font-size: 12px !important;
+    }
+    .font-sm-18{
+        font-size: 18px !important;
+    }
+
+    .confirmation-sm-contant{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+   
+
+    /* form in new edit */
+    .new-sm-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: start !important;
+
+    }
+    .new-sm-form label{
+        padding-left: 0 !important;
+    }
+    
+
+    .new-form{
+        width: 100% !important;
+    }
+
+    
+    /* navbar */
+    .mobile-nav{
+        background-color: #E9F0FD;
+        display: block !important;
+    }
+    .normal-nav{
+        display: none !important;
+    }
+
+    nav .close{
+        border: 2px solid #000;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+
+    /* img-side on large screan */
+
+    .img-side{
+        display: none;
+    }
+
+    /* content-side */
+    .sync{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sync img{
+        width: 150px !important;
+        padding: 5px 0 8px 0 !important;
+
+    }
+    .mob-input{
+        width: 100% !important;
+    }
+    .mobile-content{
+        width: 85%;
+        margin: auto;
+    }
+}

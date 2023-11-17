@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media -->
+    <link rel="stylesheet" href="css/media.css">
+    <title>SIGN IN</title>
+</head>
+<body>
+    
+    <nav class="pt-4 normal-nav fixed-top bg-white">
+        <div class="d-flex align-items-center justify-content-end mx-5 cursor">
+            <a href="" class="text-decoration-none text-black"><span class="me-2 fs-5">CLOSE (Return Home)</span></a>
+            <span class="close d-flex justify-content-center align-items-center"><i class="fa-solid fa-xmark fs-1"></i></span>
+        </div>
+    </nav>
+
+    <nav class="py-4 mobile-nav d-none">
+        <div class="d-flex justify-content-between align-items-center mx-4">
+            <div>
+                <img src="images/sepro.svg" width="85px"  alt="sepro">
+            </div>
+            <div class="d-flex align-items-center justify-content-end  cursor">
+                <span class="close d-flex justify-content-center align-items-center"><i class="fa-solid fa-xmark fs-2"></i></span>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- SIGN IN -->
+    <section class="py-5" >
+        <div class="row py-5">
+            <div class="col-md-5  img-side position-fixed ">
+                <div class=" position-relative back-img1">
+                    
+                    <img src="images/sepro.svg" class="position-absolute  logo-on-img"  alt="sepro">
+                </div>
+            </div>
+            <div class="col-md-6 ms-auto">
+                <div class="pt-4">
+                    <div class="sync">
+                        <img src="images/sync.svg" class="py-5 " width="110px" alt="sync">
+                    </div>
+                    <div class="mobile-content">
+                        <h2 class="mt-5 font-30 fw-medium font-sm-27">Sign in to SePRO <span class="fw-bolder text-black ">SYNC</span></h2>
+                        <p class="fs-5 fw-medium" >Experience seamless access to all SePRO platforms with SYNC.</p>
+                    
+                    <form action="" class="py-4">
+                        <label for="email" class="fs-4 fw-bold pt-3 pb-2  ">Email Address</label>
+                        <input class="form-control w-75 py-3 bg-input mob-input form-input" type="email" id="email">
+                        <p class="text-danger mt-2 fs-6 d-none">Enter Valid E-mail</p>
+
+                        <label for="password" class="fs-4 fw-bold pt-4 pb-2">Password</label>
+                        <input class="form-control w-75 py-3 bg-input mob-input form-input" type="text" id="password">
+                        <p class="text-danger mt-2 fs-6 d-none">Enter Valid Password at least 6 char</p>
+
+                        <a href="" class="text-decoration-none text-primary fs-3 mt-5 d-flex">Forgot Password</a>
+
+                        <button class="btn btn-primary w-75 mt-5 py-3 fs-4 form-btn mob-input d-none " id="my-btn">Sign in</button>
+                        <button class="btn btn-light w-75 mt-5 py-3 fs-4 form-btn mob-input d-block text-dark-emphasis disabled" id="disabled-btn">Sign in</button>
+
+                        <span class="d-flex  align-items-center fs-5 pt-5">Don’t have an account?   <span class="text-primary ms-3 cursor" onclick="moveToRegister()">Sign up</span></span>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/password.js"></script>
+
+</body>
+</html>

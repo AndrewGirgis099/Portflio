@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media -->
+    <link rel="stylesheet" href="css/media.css">
+    <title>Edit</title>
+</head>
+
+<body>
+
+    <nav class="pt-4 normal-nav fixed-top bg-white">
+        <div class="d-flex align-items-center justify-content-end mx-5 cursor">
+            <a href="" class="text-decoration-none text-black"><span class="me-2 fs-5">CLOSE (Return Home)</span></a>
+            <span class="close d-flex justify-content-center align-items-center"><i
+                    class="fa-solid fa-xmark fs-1"></i></span>
+        </div>
+    </nav>
+
+    <nav class="py-4 mobile-nav d-none">
+        <div class="d-flex justify-content-between align-items-center mx-4">
+            <div>
+                <img src="images/sepro.svg" width="85px" alt="sepro">
+            </div>
+            <div class="d-flex align-items-center justify-content-end  cursor">
+                <span class="close d-flex justify-content-center align-items-center"><i
+                        class="fa-solid fa-xmark fs-2"></i></span>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- SIGN IN -->
+    <section class="py-5">
+        <div class="row py-5">
+            <div class="col-md-5 img-side position-fixed">
+                <div class=" position-relative back-img4">
+                    <img src="images/sepro.svg" class="position-absolute  logo-on-img" alt="sepro">
+                </div>
+            </div>
+            <div class="col-md-6 ms-auto">
+                <div class="pt-4">
+                    <div class="sync">
+                        <img src="images/sync.svg" class="py-3 " width="110px" alt="sync">
+                    </div>
+                    <div class="mobile-content">
+                        <h2 class="fs-3 fw-medium text-black h4 mt-3">Edit account information</h2>
+
+                        <form action="" class="py-3 w-75 new-form ">
+
+                            <div>
+                                <div class="d-flex align-items-center justify-content-end py-2 new-sm-form">
+                                    <label for="fName" class="fs-6 text-black fw-medium  pe-4 pb-2 ">First Name</label>
+                                    <input class="form-control w-60 py-2  mob-input form-input" type="text" id="fName">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-end pt-2 new-sm-form">
+                                    <label for="lName" class="fs-6 text-black fw-medium  pe-4 pb-2 ">Last Name</label>
+                                    <input class="form-control w-60 py-2  mob-input form-input" type="text" id="lName">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-end pt-2 new-sm-form">
+                                    <label for="phone" class="fs-6 text-black fw-medium   pe-4 pb-2 ">Phone</label>
+                                    <input class="form-control w-60 py-2  mob-input form-input" type="text" id="phone">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-end pt-2 new-sm-form">
+                                    <label for="email" class="fs-6 text-black fw-medium   pe-4 pb-2 ">Email</label>
+                                    <input class="form-control w-60 py-2  mob-input form-input" type="email" id="email">
+                                </div>
+                            </div>
+
+                            <h3 class="text-black py-4 fw-bold h4">Company Information</h3>
+
+                            <div>
+                                <div class="d-flex align-items-center justify-content-end py-2 new-sm-form">
+                                    <label for="cName" class="fs-6 text-black fw-medium   pe-4 pb-2 ">Company
+                                        Name</label>
+                                    <input class="form-control w-60 py-2  mob-input form-input" type="text" id="cName">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-end pt-2 new-sm-form">
+                                    <label for="address" class="fs-6 text-black fw-medium  pe-4 pb-2 ">Street
+                                        Address</label>
+                                    <input class="form-control w-60 py-2  mob-input form-input" type="text" id="address">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-end pt-2 new-sm-form">
+                                    <label for="city" class="fs-6 text-black fw-medium  pe-4 pb-2 ">City</label>
+                                    <input class="form-control w-60 py-2  mob-input form-input" type="text" id="city">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-end pt-2 new-sm-form">
+                                    <label for="state" class="fs-6 text-black fw-medium  pe-4 pb-2 ">State</label>
+                                    <select name="cars" id="state"
+                                        class=" rounded-1 border-secondary-subtle w-60 py-2  mob-input form-input">
+                                        <option value="opt1">option1</option>
+                                        <option value="opt2">option2</option>
+                                        <option value="opt3">option3</option>
+                                        <option value="opt4">option4</option>
+                                    </select>
+                                    <!-- <input class="form-control w-50 py-2  mob-input" type="email" id="zCode"> -->
+                                </div>
+                                <div class="d-flex align-items-center justify-content-end pt-3 new-sm-form">
+                                    <label for="zCode" class="fs-6 text-black fw-medium   pe-4 pb-2 ">Zipcode</label>
+                                    <input class="form-control w-60 py-2  mob-input form-input" type="email" id="zCode">
+                                </div>
+                            </div>
+
+                            <div class="py-5">
+                                <p>
+                                    Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id
+                                    nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor.
+                                </p>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+
+                                    Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id
+                                    ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. </p>
+                                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cum sociis
+                                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                                <p>Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis
+                                    in, egestas eget quam.
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                                <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis
+                                    parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet
+                                    fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                                </p>
+
+                                <h3 class="h2">Fake Subheader</h3>
+                                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo
+                                    quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. </p>
+                                <h3 class="h2">Fake Subheader</h3>
+                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis
+                                    lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a
+                                    pharetra augue. </p>
+
+                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id
+                                    nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. </p>
+
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+
+                                    Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id
+                                    ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. </p>
+
+                                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cum sociis
+                                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+
+                                <p>Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis
+                                    in, egestas eget quam.
+
+                                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+
+                                <p>Maecenas faucibus mollis interdum. </p>
+                            </div>
+
+                            <button class="btn btn-primary w-100 mt-5 py-2 fs-4 form-btn mob-input d-none " id="my-btn">Update</button>
+                            <button class="btn btn-light w-100 mt-5 py-2 fs-4 form-btn mob-input d-block text-dark-emphasis disabled" id="disabled-btn">Update</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
